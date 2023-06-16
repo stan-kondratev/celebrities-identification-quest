@@ -1,19 +1,50 @@
 
 import pandas as pd
 import streamlit as st
-from wikidata import Tools
-# Draw a title and some text to the app:
+from logic import DataRetrieve
+
 '''
-# Celebrities Guessing wtih Images
+# Celebrities Guessing with Images
 '''
-df = pd.read_csv("raw_data/list_act.csv")
+df = DataRetrieve.get_data_celebrities()
 
 df.sort_values(by="name",axis=0, ascending=True, inplace=True)
 
-values = tuple(df['name'].tolist())
+values =df['name'].tolist()
+keys = df.index.to_list()
 
-a = st.sidebar.selectbox('Select a Celebrity', values)
+score = {
+    "Name": [],
+    "Score": []
+}
 
-img = Tools.get_image(a)
-st.sidebar.image(img,width=300)
+# def guess(name, score):
 
+#     return df.iloc[id]
+
+
+col1, col2 = st.columns(2,gap="large")
+
+with col1:
+    """
+    #### Select a celebrity
+    """
+    a = st.selectbox("", values)
+    a_key = df[df["name"]==a].index.values[0]
+    img = DataRetrieve.get_image(a)
+    st.image(img,use_column_width=True)
+    col1_1, col1_2 = st.columns(2)
+    with col1_1:
+        st.button("Guess", use_container_width=True)
+    with col1_2:
+        st.button("Hint", use_container_width=True)
+    st.button("Show answer", use_container_width=True)
+
+with col2:
+    """
+    #### Score tracking
+    """
+    st.text(" ")
+    st.text(" ")
+    df_score = pd.DataFrame(score)
+    st.dataframe(df_score,width=300, hide_index=True)
