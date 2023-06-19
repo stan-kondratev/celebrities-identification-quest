@@ -19,14 +19,22 @@ def strip_accents(s):
 
 df = get_data_celebrities()
 
+score_words = ["Frigid","Bitterly Cold","Chilling","Brisk","Refreshing","Pleasantly Mild","Balmy","Sweltering","Roasting","Scorching Hot", "You reached the Sun"]
 
-score_words = ["Frigid","Bitterly Cold","Chilling","Brisk","Refreshing","Pleasantly Mild","Balmy","Sweltering","Roasting","Scorching Hot","You reached the Sun"]
 
 
 if 'score_list' not in st.session_state:
     st.session_state['score_list'] = [(0,0,0)]
+if 'hint_counter' not in st.session_state:
+    st.session_state['hint_counter'] = 0
+
 
 hidden_celebrity, hint = DataRetrieve.celeb_selector(file_path="raw_data/metafile.csv")
+
+#if 'hint_list' not in st.session_state:
+#    st.session_state['hint_list'] = hint[0]
+hint_df = pd.DataFrame.from_dict(hint, orient='index')
+
 
 df.sort_values(by="name",axis=0, ascending=True, inplace=True)
 
@@ -57,7 +65,19 @@ with col1:
 
     with col1_2:
         if st.button("Hint", use_container_width=True):
-            st.write(hint[0])
+
+            st.session_state['hint_counter'] += 1
+            #st.write(st.session_state['hint_counter'])
+
+
+        if st.session_state['hint_counter'] > len(hint):
+            st.session_state['hint_counter'] = 0
+
+    if st.session_state['hint_counter'] > 0:
+        st.dataframe(hint_df.head(st.session_state['hint_counter']), use_container_width=True,column_config={0:"Hint",1:"Value"})
+
+
+
     if st.button("Show answer", use_container_width=True):
         st.text(hidden_celebrity)
     else:
