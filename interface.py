@@ -1,7 +1,7 @@
 
 import pandas as pd
 import streamlit as st
-from logic import DataRetrieve
+from celebrity import DataRetrieve
 import unicodedata
 
 st.set_page_config(layout="centered")
