@@ -111,6 +111,8 @@ class DataRetrieve:
         # image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
         return image
 
+    
+
     def get_data_celebrities():
         return pd.read_csv("raw_data/list_act.csv")
 
