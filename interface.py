@@ -2,9 +2,6 @@
 import pandas as pd
 import streamlit as st
 from logic import DataRetrieve
-# import datetime
-# import numpy as np
-# import os
 import unicodedata
 
 st.set_page_config(layout="centered")
@@ -21,7 +18,9 @@ def strip_accents(s):
                   if unicodedata.category(c) != 'Mn')
 
 df = get_data_celebrities()
-score_words = ["Frigid","Bitterly Cold","Chilling","Brisk","Refreshing","Pleasantly Mild","Balmy","Sweltering","Roasting","Scorching Hot"]
+
+
+score_words = ["Frigid","Bitterly Cold","Chilling","Brisk","Refreshing","Pleasantly Mild","Balmy","Sweltering","Roasting","Scorching Hot","You reached the Sun"]
 
 
 if 'score_list' not in st.session_state:
