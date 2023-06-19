@@ -55,8 +55,9 @@ class DataRetrieve:
             celeb_index = np.random.choice(selection_df.shape[0])
 
         hidden_celebrity = selection_df['itemLabel'].iloc[celeb_index]
-        hint = selection_df.iloc[:,1:].iloc[celeb_index].tolist()
-
+        hint_items = selection_df.iloc[:,1:].iloc[celeb_index].tolist()
+        hint_titles = selection_df.iloc[:,1:].columns
+        hint = {k:v for k,v in zip(hint_titles, hint_items)}
         return hidden_celebrity , hint
 
     def celeb_and_score_query(celebrity, hidden_celebrity, names_df, score_df):
