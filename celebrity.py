@@ -22,23 +22,23 @@ class DataRetrieve:
     def get_data_celebrities():
         return pd.read_csv("raw_data/list_act.csv")
 
-    def celeb_selector(mode='daily', test_index=0, file_path='metafile.csv'):
+    def celeb_selector(mode='daily', test_index=0, file_path='raw_data/metafile_complete.csv'):
 
         selection_df = pd.read_csv(file_path)
-        selection_df = selection_df.iloc[:,1:].drop(columns=['item','image'])
+        # selection_df = selection_df.iloc[:,1:].drop(columns=['item','image'])
 
-        def birth_date_to_age(birth_date):
-            birth_date  = birth_date[:10]
-            birth_date = datetime.datetime.strptime(birth_date, r'%Y-%m-%d').date()
-            today = datetime.date.today()
-            age = today.year - birth_date.year
-            full_year_passed = (today.month, today.day) < (birth_date.month, birth_date.day)
-            if not full_year_passed:
-                age -= 1
-            return age
+        # def birth_date_to_age(birth_date):
+        #     birth_date  = birth_date[:10]
+        #     birth_date = datetime.datetime.strptime(birth_date, r'%Y-%m-%d').date()
+        #     today = datetime.date.today()
+        #     age = today.year - birth_date.year
+        #     full_year_passed = (today.month, today.day) < (birth_date.month, birth_date.day)
+        #     if not full_year_passed:
+        #         age -= 1
+        #     return age
 
-        selection_df['bdayLabel'] = selection_df['bdayLabel'].apply(lambda x: x[:10])
-        selection_df['age'] = selection_df['bdayLabel'].apply(birth_date_to_age)
+        # selection_df['bdayLabel'] = selection_df['bdayLabel'].apply(lambda x: x[:10])
+        # selection_df['age'] = selection_df['bdayLabel'].apply(birth_date_to_age)
 
 
         # Standard mode
@@ -54,8 +54,10 @@ class DataRetrieve:
         else:
             celeb_index = np.random.choice(selection_df.shape[0])
 
-        hidden_celebrity = selection_df['itemLabel'].iloc[celeb_index]
-        hint = selection_df.iloc[:,1:].iloc[celeb_index].tolist()
+        hidden_celebrity = selection_df['Celebrity'].iloc[celeb_index]
+        hint_items = selection_df.iloc[:,2:].iloc[celeb_index].tolist()
+        hint_titles = selection_df.iloc[:,2:].columns
+        hint = {k:v for k,v in zip(hint_titles, hint_items)}
 
         return hidden_celebrity , hint
 
