@@ -37,7 +37,7 @@ df = get_data_celebrities()
 #     "Roasting","Scorching Hot", "You reached the Sun"]
 
 score_words = ["Freezing","Very Cold","Cold","Cool","Mild","Warm","Hot","Very Hot",\
-    "Scorching","You reached the Sun"]
+    "Scorching","You Won"]
 
 
 
