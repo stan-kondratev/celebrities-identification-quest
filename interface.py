@@ -115,7 +115,7 @@ with st.sidebar:
     #test_celebrity  = st.selectbox("hidden celebrity choice", selection_df['Celebrity'])
 
     #st.text(df[selection_df['Celebrity']==test_celebrity.index.values[0]])
-    st.session_state['test_index'] = df[selection_df['Celebrity']==st.session_state['test_celebrity']].index.values[0]
+    st.session_state['test_index'] = selection_df[selection_df['Celebrity']==st.session_state['test_celebrity']].index.values[0]
     st.button('Confirm')
     st.write(st.session_state['test_celebrity'], hidden_celebrity)
 
