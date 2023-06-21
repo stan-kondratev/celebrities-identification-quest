@@ -25,21 +25,6 @@ class DataRetrieve:
     def celeb_selector(mode='daily', test_index=0, file_path='raw_data/metafile_complete.csv'):
 
         selection_df = pd.read_csv(file_path)
-        # selection_df = selection_df.iloc[:,1:].drop(columns=['item','image'])
-
-        # def birth_date_to_age(birth_date):
-        #     birth_date  = birth_date[:10]
-        #     birth_date = datetime.datetime.strptime(birth_date, r'%Y-%m-%d').date()
-        #     today = datetime.date.today()
-        #     age = today.year - birth_date.year
-        #     full_year_passed = (today.month, today.day) < (birth_date.month, birth_date.day)
-        #     if not full_year_passed:
-        #         age -= 1
-        #     return age
-
-        # selection_df['bdayLabel'] = selection_df['bdayLabel'].apply(lambda x: x[:10])
-        # selection_df['age'] = selection_df['bdayLabel'].apply(birth_date_to_age)
-
 
         # Standard mode
         if mode=='daily':
@@ -59,7 +44,7 @@ class DataRetrieve:
         hint_titles = selection_df.iloc[:,2:].columns
         hint = {k:v for k,v in zip(hint_titles, hint_items)}
 
-        return hidden_celebrity , hint
+        return hidden_celebrity , hint, selection_df
 
     def celeb_and_score_query(celebrity, hidden_celebrity, names_df, score_df):
         celeb_rank = names_df[hidden_celebrity][names_df[hidden_celebrity] == celebrity].index
