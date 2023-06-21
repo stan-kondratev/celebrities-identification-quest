@@ -91,7 +91,7 @@ with col1:
             else:
                 score = DataRetrieve.celeb_and_score_query(hidden_celebrity=hidden_celebrity,celebrity=celebrity,\
                     names_df=pd.read_csv("raw_data/names.csv"),score_df=pd.read_csv("raw_data/scoring.csv"))
-            st.session_state["score_list"].append([a,int(score[1]*100),score_words[int(int(score[1]*100)/10)],a_key])
+            st.session_state["score_list"].append([a,int(100-score[1]*100),score_words[int(int((100-score[1]*100))/10)],a_key])
 
     with col1_2:
         if st.button("Hint", use_container_width=True):
