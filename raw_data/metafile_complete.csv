@@ -88,120 +88,121 @@
 86,Ingrid Bergman,"actor, autobiographer, film actor",female,Sweden,1915-1982. Age: 67
 87,Jack Lemmon,"actor, character actor, comedian",male,USA,1925-2001. Age: 76
 88,Jack Nicholson,"actor, art collector, character actor",male,USA,Born in 1937. Age: 86
-89,James Cagney,"character actor, film actor, film director",male,USA,1899-1986. Age: 86
-90,James Dean,"actor, film actor, racing automobile driver",male,USA,1931-1955. Age: 24
-91,James Stewart,"actor, aircraft pilot, character actor",male,USA,1908-1997. Age: 89
-92,Jamie Foxx,"actor, comedian, film actor",male,USA,Born in 1967. Age: 55
-93,Janet Leigh,"actor, character actor, film actor",female,USA,1927-2004. Age: 77
-94,Jason Robards,"actor, film actor, stage actor",male,USA,1922-2000. Age: 78
-95,Javier Bardem,"actor, film actor, rugby player",male,Spain,Born in 1969. Age: 54
-96,Jeff Bridges,"actor, character actor, composer",male,USA,Born in 1949. Age: 73
-97,Jennifer Aniston,"actor, businessperson, entrepreneur",female,USA,Born in 1969. Age: 54
-98,Jennifer Connelly,"actor, model, singer",female,USA,Born in 1970. Age: 52
-99,Jennifer Jason Leigh,"actor, film director, film producer",female,USA,Born in 1962. Age: 61
-100,Jennifer Lawrence,"actor, film actor, television actor",female,USA,Born in 1990. Age: 32
-101,Jeremy Irons,"actor, film actor, stage actor",male,The UK,Born in 1948. Age: 74
-102,Jessica Chastain,"actor, film producer",female,USA,Born in 1977. Age: 46
-103,Jim Carrey,"actor, comedian, film producer",male,Canada,Born in 1962. Age: 61
-104,Jimmy Fallon,"actor, comedian, film actor",male,USA,Born in 1974. Age: 48
-105,Joan Allen,"film actor, stage actor, television actor",female,USA,Born in 1956. Age: 66
-106,Joaquin Phoenix,"activist, actor, animal rights advocate",male,USA,Born in 1974. Age: 48
-107,Jodie Foster,"actor, character actor, executive producer",female,USA,Born in 1962. Age: 60
-108,Joe Pesci,"actor, character actor, comedian",male,USA,Born in 1943. Age: 80
-109,John Goodman,"actor, comedian, film actor",male,USA,Born in 1952. Age: 71
-110,John Wayne,"American football player, actor, film actor",male,USA,1907-1979. Age: 72
-111,Johnny Depp,"actor, film actor, film director",male,USA,Born in 1963. Age: 60
-112,Jon Voight,"actor, comedian, film producer",male,USA,Born in 1938. Age: 84
-113,Julia Louis-Dreyfus,"film actor, film producer, singer",female,USA,Born in 1961. Age: 62
-114,Julia Roberts,"actor, film actor, film producer",female,USA,Born in 1967. Age: 55
-115,Julianne Moore,"actor, children's writer, film actor",female,USA,Born in 1960. Age: 62
-116,Julie Delpy,"composer, film actor, film director",female,USA,Born in 1969. Age: 53
-117,Kate Mara,"actor, executive producer, film actor",female,USA,Born in 1983. Age: 40
-118,Kate Winslet,"actor, film actor, singer",female,The UK,Born in 1975. Age: 47
-119,Katherine Parkinson,"actor, comedian, film actor",female,The UK,Born in 1977. Age: 45
-120,Katheryn Winnick,"actor, martial artist",female,Canada,Born in 1977. Age: 45
-121,Kaya Scodelario,"actor, child actor, film actor",female,The UK,Born in 1992. Age: 31
-122,Keira Knightley,"actor, film actor, model",female,The UK,Born in 1985. Age: 38
-123,Kevin Spacey,"actor, character actor, film actor",male,USA,Born in 1959. Age: 63
-124,Kim Basinger,"film actor, film producer, model",female,USA,Born in 1953. Age: 69
-125,Kim Novak,"film actor, model, painter",female,USA,Born in 1933. Age: 90
-126,Kirk Douglas,"actor, author, film actor",male,USA,1916-2020. Age: 103
-127,Kirsten Dunst,"actor, film actor, film director",female,USA,Born in 1982. Age: 41
-128,Lauren Cohan,"actor, fashion model, film actor",female,USA,Born in 1982. Age: 41
-129,Laurence Olivier,"actor, character actor, director",male,The UK,1907-1989. Age: 82
-130,Leonardo DiCaprio,"actor, environmentalist, film actor",male,USA,Born in 1974. Age: 48
-131,Liam Hemsworth,"actor, film actor, television actor",male,Australia,Born in 1990. Age: 33
-132,Liam Neeson,"actor, association football player, boxer",male,Ireland,Born in 1952. Age: 71
-133,Liv Ullmann,"actor, autobiographer, film actor",female,Norway,Born in 1938. Age: 84
-134,Lucy Liu,"actor, director, film actor",female,USA,Born in 1968. Age: 54
-135,Léa Seydoux,"actor, film actor",female,France,Born in 1985. Age: 37
-136,Maggie Gyllenhaal,"film actor, film director, screenwriter",female,USA,Born in 1977. Age: 45
-137,Maggie Smith,"character actor, film actor, stage actor",female,The UK,Born in 1934. Age: 88
-138,Margot Robbie,"actor, film actor, film producer",female,Australia,Born in 1990. Age: 32
-139,Marilyn Monroe,"Playboy Playmate, actor, autobiographer",female,USA,1926-1962. Age: 36
-140,Marion Cotillard,actor,female,France,Born in 1975. Age: 47
-141,Marlene Dietrich,"actor, autobiographer, entertainer",female,USA,1901-1992. Age: 90
-142,Marlon Brando,"film actor, film director, stage actor",male,USA,1924-2004. Age: 80
-143,Martin Sheen,"Actor, actor, environmentalist",male,Ireland,Born in 1940. Age: 82
-144,Matt Damon,"actor, film actor, film producer",male,USA,Born in 1970. Age: 52
-145,Matthew McConaughey,"actor, film actor, film producer",male,USA,Born in 1969. Age: 53
-146,Mel Gibson,"film actor, film director, film producer",male,Ireland,Born in 1956. Age: 67
-147,Meryl Streep,"actor, film actor, film producer",female,USA,Born in 1949. Age: 73
-148,Mia Farrow,"actor, film actor, human rights activist",female,USA,Born in 1945. Age: 78
-149,Michael Caine,film actor,male,The UK,Born in 1933. Age: 90
-150,Michael Douglas,"actor, film actor, film producer",male,USA,Born in 1944. Age: 78
-151,Michelle Pfeiffer,"film actor, film producer, model",female,USA,Born in 1958. Age: 65
-152,Milla Jovovich,"actor, dressmaker, executive producer",female,USA,Born in 1975. Age: 47
-153,Morgan Freeman,"actor, aircraft pilot, beekeeper",male,USA,Born in 1937. Age: 86
-154,Mélanie Laurent,"actor, director, film actor",female,France,Born in 1983. Age: 40
-155,Naomi Watts,"actor, film actor, film producer",female,The UK,Born in 1968. Age: 54
-156,Natalie Portman,"actor, film actor, film director",female,USA,Born in 1981. Age: 42
-157,Nicole Kidman,"actor, diplomat, film actor",female,USA,Born in 1967. Age: 56
-158,Octavia Spencer,"actor, film actor, film director",female,USA,Born in 1970. Age: 53
-159,Olga Kurylenko,"actor, film actor, model",female,France,Born in 1979. Age: 43
-160,Orson Welles,"actor, character actor, director",male,USA,1915-1985. Age: 70
-161,Paul Newman,"actor, entrepreneur, film actor",male,USA,1925-2008. Age: 83
-162,Peter Finch,"actor, film actor, stage actor",male,The UK,1916-1977. Age: 60
-163,Peter O'Toole,"actor, film actor, film director",male,Ireland,1932-2013. Age: 81
-164,Peter Sellers,"actor, banjoist, comedian",male,The UK,1925-1980. Age: 54
-165,Philip Seymour Hoffman,"actor, character actor, film actor",male,USA,1967-2014. Age: 46
-166,Rachel McAdams,"actor, environmentalist, film actor",female,Canada,Born in 1978. Age: 44
-167,Rachel Weisz,"actor, audiobook narrator, film actor",female,USA,Born in 1970. Age: 53
-168,Ralph Fiennes,"actor, character actor, film actor",male,The UK,Born in 1962. Age: 60
-169,Richard Burton,"actor, diarist, film actor",male,The UK,1925-1984. Age: 58
-170,Robert De Niro,"actor, film actor, film director",male,USA,Born in 1943. Age: 79
-171,Robert Downey Jr.,"actor, film director, film producer",male,USA,Born in 1965. Age: 58
-172,Robert Duvall,"actor, character actor, film actor",male,USA,Born in 1931. Age: 92
-173,Robert Mitchum,"actor, film actor, screenwriter",male,USA,1917-1997. Age: 79
-174,Robert Redford,"actor, businessperson, environmentalist",male,USA,Born in 1936. Age: 86
-175,Robin Williams,"actor, audiobook narrator, comedian",male,USA,1951-2014. Age: 63
-176,Robin Wright,"actor, film actor, film director",female,USA,Born in 1966. Age: 57
-177,Rooney Mara,"actor, fashion designer, film actor",female,USA,Born in 1985. Age: 38
-178,Rosamund Pike,"film actor, stage actor, television actor",female,The UK,Born in 1979. Age: 44
-179,Russell Crowe,"actor, character actor, film actor",male,New Zealand,Born in 1964. Age: 59
-180,Sally Hawkins,"actor, film actor, screenwriter",female,The UK,Born in 1976. Age: 47
-181,Samara Weaving,"actor, film director, model",female,Australia,Born in 1992. Age: 31
-182,Samuel L. Jackson,"actor, character actor, film actor",male,USA,Born in 1948. Age: 74
-183,Saoirse Ronan,"actor, film actor, stage actor",female,USA,Born in 1994. Age: 29
-184,Scarlett Johansson,"film actor, film director, model",female,USA,Born in 1984. Age: 38
-185,Sean Connery,"actor, character actor, film actor",male,The UK,1930-2020. Age: 90
-186,Sean Penn,"LGBTQI+ rights activist, actor, film actor",male,USA,Born in 1960. Age: 62
-187,Sharon Stone,"erotic photography model, film actor, film producer",female,USA,Born in 1958. Age: 65
-188,Shelley Duvall,"comedian, film actor, film producer",female,USA,Born in 1949. Age: 73
-189,Sidney Poitier,"actor, author, autobiographer",male,USA,1927-2022. Age: 94
-190,Sigourney Weaver,"actor, film actor, film producer",female,USA,Born in 1949. Age: 73
-191,Spencer Tracy,"actor, film actor, stage actor",male,USA,1900-1967. Age: 67
-192,Steve McQueen,"actor, film actor, motorcycle racer",male,USA,1930-1980. Age: 50
-193,Talia Shire,"actor, film actor, film producer",female,USA,Born in 1946. Age: 77
-194,Tilda Swinton,"actor, exhibition curator, film actor",female,The UK,Born in 1960. Age: 62
-195,Tom Cruise,"film actor, film director, film producer",male,USA,Born in 1962. Age: 60
-196,Tom Hanks,"actor, character actor, comedian",male,USA,Born in 1956. Age: 66
-197,Tommy Lee Jones,"film actor, film director, film producer",male,USA,Born in 1946. Age: 76
-198,Uma Thurman,"actor, film actor, film producer",female,USA,Born in 1970. Age: 53
-199,Vera Farmiga,"film actor, film director, film producer",female,USA,Born in 1973. Age: 49
-200,Viola Davis,"film actor, stage actor, television actor",female,USA,Born in 1965. Age: 57
-201,Virginia Cherrill,"actor, film actor",female,USA,1908-1996. Age: 88
-202,Vivien Leigh,"actor, film actor, stage actor",female,The UK,1913-1967. Age: 53
-203,Will Smith,"actor, film producer, singer",male,USA,Born in 1968. Age: 54
-204,William Holden,"actor, film actor, television actor",male,USA,1918-1981. Age: 63
-205,Woody Allen,"character actor, clarinetist, comedian",male,USA,Born in 1935. Age: 87
+89,Jaime King,"actor, film actor, model",female,USA,Born in 1979. Age: 44
+90,James Cagney,"character actor, film actor, film director",male,USA,1899-1986. Age: 86
+91,James Dean,"actor, film actor, racing automobile driver",male,USA,1931-1955. Age: 24
+92,James Stewart,"actor, aircraft pilot, character actor",male,USA,1908-1997. Age: 89
+93,Jamie Foxx,"actor, comedian, film actor",male,USA,Born in 1967. Age: 55
+94,Janet Leigh,"actor, character actor, film actor",female,USA,1927-2004. Age: 77
+95,Jason Robards,"actor, film actor, stage actor",male,USA,1922-2000. Age: 78
+96,Javier Bardem,"actor, film actor, rugby player",male,Spain,Born in 1969. Age: 54
+97,Jeff Bridges,"actor, character actor, composer",male,USA,Born in 1949. Age: 73
+98,Jennifer Aniston,"actor, businessperson, entrepreneur",female,USA,Born in 1969. Age: 54
+99,Jennifer Connelly,"actor, model, singer",female,USA,Born in 1970. Age: 52
+100,Jennifer Jason Leigh,"actor, film director, film producer",female,USA,Born in 1962. Age: 61
+101,Jennifer Lawrence,"actor, film actor, television actor",female,USA,Born in 1990. Age: 32
+102,Jeremy Irons,"actor, film actor, stage actor",male,The UK,Born in 1948. Age: 74
+103,Jessica Chastain,"actor, film producer",female,USA,Born in 1977. Age: 46
+104,Jim Carrey,"actor, comedian, film producer",male,Canada,Born in 1962. Age: 61
+105,Jimmy Fallon,"actor, comedian, film actor",male,USA,Born in 1974. Age: 48
+106,Joan Allen,"film actor, stage actor, television actor",female,USA,Born in 1956. Age: 66
+107,Joaquin Phoenix,"activist, actor, animal rights advocate",male,USA,Born in 1974. Age: 48
+108,Jodie Foster,"actor, character actor, executive producer",female,USA,Born in 1962. Age: 60
+109,Joe Pesci,"actor, character actor, comedian",male,USA,Born in 1943. Age: 80
+110,John Goodman,"actor, comedian, film actor",male,USA,Born in 1952. Age: 71
+111,John Wayne,"American football player, actor, film actor",male,USA,1907-1979. Age: 72
+112,Johnny Depp,"actor, film actor, film director",male,USA,Born in 1963. Age: 60
+113,Jon Voight,"actor, comedian, film producer",male,USA,Born in 1938. Age: 84
+114,Julia Louis-Dreyfus,"film actor, film producer, singer",female,USA,Born in 1961. Age: 62
+115,Julia Roberts,"actor, film actor, film producer",female,USA,Born in 1967. Age: 55
+116,Julianne Moore,"actor, children's writer, film actor",female,USA,Born in 1960. Age: 62
+117,Julie Delpy,"composer, film actor, film director",female,USA,Born in 1969. Age: 53
+118,Kate Mara,"actor, executive producer, film actor",female,USA,Born in 1983. Age: 40
+119,Kate Winslet,"actor, film actor, singer",female,The UK,Born in 1975. Age: 47
+120,Katherine Parkinson,"actor, comedian, film actor",female,The UK,Born in 1977. Age: 45
+121,Katheryn Winnick,"actor, martial artist",female,Canada,Born in 1977. Age: 45
+122,Kaya Scodelario,"actor, child actor, film actor",female,The UK,Born in 1992. Age: 31
+123,Keira Knightley,"actor, film actor, model",female,The UK,Born in 1985. Age: 38
+124,Kevin Spacey,"actor, character actor, film actor",male,USA,Born in 1959. Age: 63
+125,Kim Basinger,"film actor, film producer, model",female,USA,Born in 1953. Age: 69
+126,Kim Novak,"film actor, model, painter",female,USA,Born in 1933. Age: 90
+127,Kirk Douglas,"actor, author, film actor",male,USA,1916-2020. Age: 103
+128,Kirsten Dunst,"actor, film actor, film director",female,USA,Born in 1982. Age: 41
+129,Lauren Cohan,"actor, fashion model, film actor",female,USA,Born in 1982. Age: 41
+130,Laurence Olivier,"actor, character actor, director",male,The UK,1907-1989. Age: 82
+131,Leonardo DiCaprio,"actor, environmentalist, film actor",male,USA,Born in 1974. Age: 48
+132,Liam Hemsworth,"actor, film actor, television actor",male,Australia,Born in 1990. Age: 33
+133,Liam Neeson,"actor, association football player, boxer",male,Ireland,Born in 1952. Age: 71
+134,Liv Ullmann,"actor, autobiographer, film actor",female,Norway,Born in 1938. Age: 84
+135,Lucy Liu,"actor, director, film actor",female,USA,Born in 1968. Age: 54
+136,Léa Seydoux,"actor, film actor",female,France,Born in 1985. Age: 37
+137,Maggie Gyllenhaal,"film actor, film director, screenwriter",female,USA,Born in 1977. Age: 45
+138,Maggie Smith,"character actor, film actor, stage actor",female,The UK,Born in 1934. Age: 88
+139,Margot Robbie,"actor, film actor, film producer",female,Australia,Born in 1990. Age: 32
+140,Marilyn Monroe,"Playboy Playmate, actor, autobiographer",female,USA,1926-1962. Age: 36
+141,Marion Cotillard,actor,female,France,Born in 1975. Age: 47
+142,Marlene Dietrich,"actor, autobiographer, entertainer",female,USA,1901-1992. Age: 90
+143,Marlon Brando,"film actor, film director, stage actor",male,USA,1924-2004. Age: 80
+144,Martin Sheen,"Actor, actor, environmentalist",male,Ireland,Born in 1940. Age: 82
+145,Matt Damon,"actor, film actor, film producer",male,USA,Born in 1970. Age: 52
+146,Matthew McConaughey,"actor, film actor, film producer",male,USA,Born in 1969. Age: 53
+147,Mel Gibson,"film actor, film director, film producer",male,Ireland,Born in 1956. Age: 67
+148,Meryl Streep,"actor, film actor, film producer",female,USA,Born in 1949. Age: 74
+149,Mia Farrow,"actor, film actor, human rights activist",female,USA,Born in 1945. Age: 78
+150,Michael Caine,film actor,male,The UK,Born in 1933. Age: 90
+151,Michael Douglas,"actor, film actor, film producer",male,USA,Born in 1944. Age: 78
+152,Michelle Pfeiffer,"film actor, film producer, model",female,USA,Born in 1958. Age: 65
+153,Milla Jovovich,"actor, dressmaker, executive producer",female,USA,Born in 1975. Age: 47
+154,Morgan Freeman,"actor, aircraft pilot, beekeeper",male,USA,Born in 1937. Age: 86
+155,Mélanie Laurent,"actor, director, film actor",female,France,Born in 1983. Age: 40
+156,Naomi Watts,"actor, film actor, film producer",female,The UK,Born in 1968. Age: 54
+157,Natalie Portman,"actor, film actor, film director",female,USA,Born in 1981. Age: 42
+158,Nicole Kidman,"actor, diplomat, film actor",female,USA,Born in 1967. Age: 56
+159,Octavia Spencer,"actor, film actor, film director",female,USA,Born in 1970. Age: 53
+160,Olga Kurylenko,"actor, film actor, model",female,France,Born in 1979. Age: 43
+161,Orson Welles,"actor, character actor, director",male,USA,1915-1985. Age: 70
+162,Paul Newman,"actor, entrepreneur, film actor",male,USA,1925-2008. Age: 83
+163,Peter Finch,"actor, film actor, stage actor",male,The UK,1916-1977. Age: 60
+164,Peter O'Toole,"actor, film actor, film director",male,Ireland,1932-2013. Age: 81
+165,Peter Sellers,"actor, banjoist, comedian",male,The UK,1925-1980. Age: 54
+166,Philip Seymour Hoffman,"actor, character actor, film actor",male,USA,1967-2014. Age: 46
+167,Rachel McAdams,"actor, environmentalist, film actor",female,Canada,Born in 1978. Age: 44
+168,Rachel Weisz,"actor, audiobook narrator, film actor",female,USA,Born in 1970. Age: 53
+169,Ralph Fiennes,"actor, character actor, film actor",male,The UK,Born in 1962. Age: 60
+170,Richard Burton,"actor, diarist, film actor",male,The UK,1925-1984. Age: 58
+171,Robert De Niro,"actor, film actor, film director",male,USA,Born in 1943. Age: 79
+172,Robert Downey Jr.,"actor, film director, film producer",male,USA,Born in 1965. Age: 58
+173,Robert Duvall,"actor, character actor, film actor",male,USA,Born in 1931. Age: 92
+174,Robert Mitchum,"actor, film actor, screenwriter",male,USA,1917-1997. Age: 79
+175,Robert Redford,"actor, businessperson, environmentalist",male,USA,Born in 1936. Age: 86
+176,Robin Williams,"actor, audiobook narrator, comedian",male,USA,1951-2014. Age: 63
+177,Robin Wright,"actor, film actor, film director",female,USA,Born in 1966. Age: 57
+178,Rooney Mara,"actor, fashion designer, film actor",female,USA,Born in 1985. Age: 38
+179,Rosamund Pike,"film actor, stage actor, television actor",female,The UK,Born in 1979. Age: 44
+180,Russell Crowe,"actor, character actor, film actor",male,New Zealand,Born in 1964. Age: 59
+181,Sally Hawkins,"actor, film actor, screenwriter",female,The UK,Born in 1976. Age: 47
+182,Samara Weaving,"actor, film director, model",female,Australia,Born in 1992. Age: 31
+183,Samuel L. Jackson,"actor, character actor, film actor",male,USA,Born in 1948. Age: 74
+184,Saoirse Ronan,"actor, film actor, stage actor",female,USA,Born in 1994. Age: 29
+185,Scarlett Johansson,"film actor, film director, model",female,USA,Born in 1984. Age: 38
+186,Sean Connery,"actor, character actor, film actor",male,The UK,1930-2020. Age: 90
+187,Sean Penn,"LGBTQI+ rights activist, actor, film actor",male,USA,Born in 1960. Age: 62
+188,Sharon Stone,"erotic photography model, film actor, film producer",female,USA,Born in 1958. Age: 65
+189,Shelley Duvall,"comedian, film actor, film producer",female,USA,Born in 1949. Age: 73
+190,Sidney Poitier,"actor, author, autobiographer",male,USA,1927-2022. Age: 94
+191,Sigourney Weaver,"actor, film actor, film producer",female,USA,Born in 1949. Age: 73
+192,Spencer Tracy,"actor, film actor, stage actor",male,USA,1900-1967. Age: 67
+193,Steve McQueen,"actor, film actor, motorcycle racer",male,USA,1930-1980. Age: 50
+194,Talia Shire,"actor, film actor, film producer",female,USA,Born in 1946. Age: 77
+195,Tilda Swinton,"actor, exhibition curator, film actor",female,The UK,Born in 1960. Age: 62
+196,Tom Cruise,"film actor, film director, film producer",male,USA,Born in 1962. Age: 60
+197,Tom Hanks,"actor, character actor, comedian",male,USA,Born in 1956. Age: 66
+198,Tommy Lee Jones,"film actor, film director, film producer",male,USA,Born in 1946. Age: 76
+199,Uma Thurman,"actor, film actor, film producer",female,USA,Born in 1970. Age: 53
+200,Vera Farmiga,"film actor, film director, film producer",female,USA,Born in 1973. Age: 49
+201,Viola Davis,"film actor, stage actor, television actor",female,USA,Born in 1965. Age: 57
+202,Virginia Cherrill,"actor, film actor",female,USA,1908-1996. Age: 88
+203,Vivien Leigh,"actor, film actor, stage actor",female,The UK,1913-1967. Age: 53
+204,Will Smith,"actor, film producer, singer",male,USA,Born in 1968. Age: 54
+205,William Holden,"actor, film actor, television actor",male,USA,1918-1981. Age: 63
+206,Woody Allen,"character actor, clarinetist, comedian",male,USA,Born in 1935. Age: 87

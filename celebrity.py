@@ -3,6 +3,8 @@ import pandas as pd
 from PIL import Image
 import datetime
 import numpy as np
+from collections import OrderedDict
+
 
 
 FOLDER_PATH="raw_data/output_imdb_top100/"
@@ -43,6 +45,10 @@ class DataRetrieve:
         hint_items = selection_df.iloc[:,2:].iloc[celeb_index].tolist()
         hint_titles = selection_df.iloc[:,2:].columns
         hint = {k:v for k,v in zip(hint_titles, hint_items)}
+        hint = OrderedDict(hint)
+        key_order= ['Gender', 'Occupation', 'Citizenship', 'Age']
+        for k in key_order: # a loop to force the order you want
+            hint.move_to_end(k)
 
         return hidden_celebrity , hint, selection_df
 
