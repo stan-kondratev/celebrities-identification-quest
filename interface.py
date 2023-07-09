@@ -94,11 +94,11 @@ with st.sidebar:
     mostly formed from top-100 actors and actresses of all time. So later on we will add more celebrities to make it easier to play.
 
 
-    Good luck and have fun!
+    **Good luck and have fun!**
 
-    Author: Stanislav Kondratev
-    Development: Stanislav Kondratev and Joaquim Albquerque
-    Test: Carlota Armero and Hena Tabassum
+    **Author**: Stanislav Kondratev\n
+    **Development**: Stanislav Kondratev and Joaquim Albuquerque\n
+    **Test**: Carlota Armero and Hena Tabassum
     """
     st.text('')
     st.text('')
