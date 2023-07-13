@@ -34,6 +34,8 @@ If you would like to play with our notebooks for data retrieval and processing y
 - DeepFace v.0.0.79
 - opencv-python v.4.7.0.72
 - SPARQLWrapper v.2.0.0
+- cinemagoer v2023.5.1
+- dlib v.19.24.2
 
 # Rules of the Game:
 ## Objective:

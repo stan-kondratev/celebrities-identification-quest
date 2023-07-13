@@ -1,7 +1,7 @@
 
 import pandas as pd
 import streamlit as st
-from celebrity import DataRetrieval
+from backend import DataRetrieval
 import unicodedata
 import plotly.express as px
 
