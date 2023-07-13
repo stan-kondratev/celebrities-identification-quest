@@ -25,13 +25,14 @@ https://celebrity-identification-quest.streamlit.app/
 
 ## **Requirements for notebooks**:
 
-If you would like to play with our notebooks for data retrieval and processing you should have the following packages installed:
+If you want to play with our notebooks for data retrieval and processing you must have the following packages installed:
 
 - Pandas v.1.4.4
 - NumPy v.1.23.4
-- plotly v.5.9.0
+- Plotly v.5.9.0
 - Scikit-learn v.1.2.2
 - DeepFace v.0.0.79
+- TensorFlow v.2.12
 - opencv-python v.4.7.0.72
 - SPARQLWrapper v.2.0.0
 - cinemagoer v2023.5.1
