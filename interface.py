@@ -1,7 +1,7 @@
 
 import pandas as pd
 import streamlit as st
-from celebrity import DataRetrieval
+from backend import DataRetrieval
 import unicodedata
 import plotly.express as px
 
@@ -68,7 +68,7 @@ keys = df.index.to_list()
 with st.sidebar:
     """
     # About the Game:
-    Celebrity Identification Quest is game that tests your memory on movie celebrities images.
+    Celebrity Identification Quest is game that tests your memory on faces of film celebrities
     # Rules of the Game:
     ### Objective:
     The main objective of the game is to correctly identify the hidden celebrity by making educated guesses
