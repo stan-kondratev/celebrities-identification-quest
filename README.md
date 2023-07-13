@@ -49,7 +49,7 @@ indicating how close your guess is to the correct answer. This score will help y
 You can track your progress not only in the table but also with our radar-like map. It's a polar plot where radius is the similarity of celebrity to a hidden celebrity and angle is shows how other celebrities are different from each other. Red points represent celebrities you have already tried and the blue points represent the rest of our celebrity database. The closer a point to the centre the higher the resemblence. It is normal that at some point there is a huge gap betweeen the hidden celebrity and other celebrities as not every person has a famous sibling or a doppelganger.
 ## Hint Button:
 If you stack you can use our hints.
-Every time you click hint button you get a piece of information about the hidden celebrity: first gender then occupation,
+Every time you click hint button you get a piece of information about the hidden celebrity: first gender, then occupation,
 citizenship, and age.
 
 # Further ideas:
@@ -70,7 +70,7 @@ The values for radius are cosine similarities relative to a hidden celebrity. So
 
 The plot is inspired by a great game callend Pimantle https://semantle.pimanrul.es/ and I thank Jacob Settlemyre for giving me insight on how it was done.
 
-## **Good luck and have fun!**
+**Good luck and have fun!**
 
 ---
 **Author**: Stanislav Kondratev
